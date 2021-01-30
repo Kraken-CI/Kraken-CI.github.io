@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Kraken CI Blog</title>
+        <link>https://kraken-ci.github.io/blog</link>
+        <description>Kraken CI Blog</description>
+        <lastBuildDate>Sun, 26 Jul 2020 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Hello]]></title>
+            <link>https://kraken-ci.github.io/blog/hello-world</link>
+            <guid>hello-world</guid>
+            <pubDate>Sun, 26 Jul 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[Welcome to Kraken CI blog. This is the first post on this blog.]]></description>
+        </item>
+    </channel>
+</rss>
