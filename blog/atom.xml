@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://kraken-ci.github.io/blog</id>
+    <id>https://kraken.ci/blog</id>
     <title>Kraken CI Blog</title>
     <updated>2021-04-12T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://kraken-ci.github.io/blog"/>
+    <link rel="alternate" href="https://kraken.ci/blog"/>
     <subtitle>Kraken CI Blog</subtitle>
-    <icon>https://kraken-ci.github.io/img/favicon.ico</icon>
+    <icon>https://kraken.ci/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[Kraken Release 0.475]]></title>
         <id>kraken-release-0-475</id>
-        <link href="https://kraken-ci.github.io/blog/kraken-release-0-475"/>
+        <link href="https://kraken.ci/blog/kraken-release-0-475"/>
         <updated>2021-04-12T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[kraken,continuous integration,continuous testing]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[Hello World!]]></title>
         <id>hello-world</id>
-        <link href="https://kraken-ci.github.io/blog/hello-world"/>
+        <link href="https://kraken.ci/blog/hello-world"/>
         <updated>2020-07-26T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Welcome to Kraken CI blog. This is the first post on this blog.]]></summary>
     </entry>

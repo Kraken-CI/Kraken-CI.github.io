@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[42],{116:function(e){e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Kraken Release 0.475","permalink":"/blog/kraken-release-0-475"},{"title":"Hello World!","permalink":"/blog/hello-world"}]}')}}]);
