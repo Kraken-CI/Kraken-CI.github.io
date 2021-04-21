@@ -4,9 +4,16 @@
         <title>Kraken CI Blog</title>
         <link>https://kraken.ci/blog</link>
         <description>Kraken CI Blog</description>
-        <lastBuildDate>Mon, 12 Apr 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 22 Apr 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Kraken's Code Quality]]></title>
+            <link>https://kraken.ci/blog/kraken-code-quality</link>
+            <guid>kraken-code-quality</guid>
+            <pubDate>Thu, 22 Apr 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[kraken,continuous integration,continuous testing]]></description>
+        </item>
         <item>
             <title><![CDATA[Kraken Release 0.475]]></title>
             <link>https://kraken.ci/blog/kraken-release-0-475</link>
@@ -20,13 +27,6 @@
             <guid>hello-world</guid>
             <pubDate>Sun, 26 Jul 2020 00:00:00 GMT</pubDate>
             <description><![CDATA[Welcome to Kraken CI blog. This is the first post on this blog.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[Kraken's Code Quality]]></title>
-            <link>https://kraken.ci/blog/kraken-code-quality</link>
-            <guid>kraken-code-quality</guid>
-            <pubDate>Tue, 22 Apr 2014 00:00:00 GMT</pubDate>
-            <description><![CDATA[kraken,continuous integration,continuous testing]]></description>
         </item>
     </channel>
 </rss>
