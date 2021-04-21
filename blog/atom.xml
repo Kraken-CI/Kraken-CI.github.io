@@ -21,4 +21,11 @@
         <updated>2020-07-26T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Welcome to Kraken CI blog. This is the first post on this blog.]]></summary>
     </entry>
+    <entry>
+        <title type="html"><![CDATA[Kraken's Code Quality]]></title>
+        <id>kraken-code-quality</id>
+        <link href="https://kraken.ci/blog/kraken-code-quality"/>
+        <updated>2014-04-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[kraken,continuous integration,continuous testing]]></summary>
+    </entry>
 </feed>
