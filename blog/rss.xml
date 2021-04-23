@@ -8,11 +8,11 @@
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
-            <title><![CDATA[Kraken Release 0.491]]></title>
-            <link>https://kraken.ci/blog/kraken-release-0-491</link>
-            <guid>kraken-release-0-491</guid>
+            <title><![CDATA[Kraken Release 0.492]]></title>
+            <link>https://kraken.ci/blog/kraken-release-0-492</link>
+            <guid>kraken-release-0-492</guid>
             <pubDate>Sat, 24 Apr 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[The 0.491 release contains one feature:]]></description>
+            <description><![CDATA[The 0.492 release contains one feature:]]></description>
         </item>
         <item>
             <title><![CDATA[Kraken's Code Quality]]></title>

@@ -8,11 +8,11 @@
     <subtitle>Kraken CI Blog</subtitle>
     <icon>https://kraken.ci/img/favicon.ico</icon>
     <entry>
-        <title type="html"><![CDATA[Kraken Release 0.491]]></title>
-        <id>kraken-release-0-491</id>
-        <link href="https://kraken.ci/blog/kraken-release-0-491"/>
+        <title type="html"><![CDATA[Kraken Release 0.492]]></title>
+        <id>kraken-release-0-492</id>
+        <link href="https://kraken.ci/blog/kraken-release-0-492"/>
         <updated>2021-04-24T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The 0.491 release contains one feature:]]></summary>
+        <summary type="html"><![CDATA[The 0.492 release contains one feature:]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[Kraken's Code Quality]]></title>
