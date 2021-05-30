@@ -1,0 +1,1 @@
+(self.webpackChunkkraken_ci_website=self.webpackChunkkraken_ci_website||[]).push([[1212],{1212:function(e,k,s){"use strict";s.r(k)}}]);
