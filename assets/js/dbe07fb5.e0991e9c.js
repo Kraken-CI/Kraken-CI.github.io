@@ -1,0 +1,1 @@
+(self.webpackChunkkraken_ci_website=self.webpackChunkkraken_ci_website||[]).push([[1587],{173:function(e){"use strict";e.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"kraken","name":"kraken","count":6,"permalink":"/blog/tags/kraken"}')}}]);

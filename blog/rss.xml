@@ -4,9 +4,16 @@
         <title>Kraken CI Blog</title>
         <link>https://kraken.ci/blog</link>
         <description>Kraken CI Blog</description>
-        <lastBuildDate>Sat, 22 May 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 04 Jul 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Kraken Release 0.645]]></title>
+            <link>https://kraken.ci/blog/kraken-release-0-645</link>
+            <guid>kraken-release-0-645</guid>
+            <pubDate>Sun, 04 Jul 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[The 0.645 release contains several new features and improvements and some fixes.]]></description>
+        </item>
         <item>
             <title><![CDATA[Kraken Release 0.557]]></title>
             <link>https://kraken.ci/blog/kraken-release-0-557</link>

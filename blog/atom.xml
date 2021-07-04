@@ -2,11 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kraken.ci/blog</id>
     <title>Kraken CI Blog</title>
-    <updated>2021-05-22T00:00:00.000Z</updated>
+    <updated>2021-07-04T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://kraken.ci/blog"/>
     <subtitle>Kraken CI Blog</subtitle>
     <icon>https://kraken.ci/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Kraken Release 0.645]]></title>
+        <id>kraken-release-0-645</id>
+        <link href="https://kraken.ci/blog/kraken-release-0-645"/>
+        <updated>2021-07-04T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The 0.645 release contains several new features and improvements and some fixes.]]></summary>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Kraken Release 0.557]]></title>
         <id>kraken-release-0-557</id>
