@@ -1,18 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0">
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>Kraken CI Blog</title>
         <link>https://kraken.ci/blog</link>
         <description>Kraken CI Blog</description>
-        <lastBuildDate>Fri, 06 Aug 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 24 Oct 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Autoscaling with Azure and AWS ECS]]></title>
+            <link>https://kraken.ci/blog/autoscaling-with-azure-and-aws-ecs</link>
+            <guid>autoscaling-with-azure-and-aws-ecs</guid>
+            <pubDate>Sun, 24 Oct 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[The latest release 0.748 release]]></description>
+            <content:encoded><![CDATA[<p>The latest release <a href="https://github.com/Kraken-CI/kraken/releases/tag/v0.748">0.748 release</a>
+brings a new public cloud in autoscaling features: Azure and AWS ECS.</p><p><a href="/docs/quick-start">Quick Start</a> guide shows how to install Kraken CI.</p><p><a href="/docs/guide-autoscale">Autoscaling Guide</a> shows how to use
+autoscaling with Azure VMs and AWS ECS.</p><p>Maintaining a fixed number of machines for Kraken CI can be costly. If
+there is no high traffic of builds, then some machines sit idle and
+waste power. The solution to this problem is autoscaling ie. spawning
+machines with Kraken Agents dynamically depending on the current needs
+in the Kraken CI. If there is submitted a new flow with many building
+or testing jobs, then new machines are spawned. When the flow
+completes, machines are terminated and no costs are incurred.</p><p>The <a href="/docs/guide-autoscale">Autoscaling Guide</a> shows how to configure
+access to Azure, then how to configure parameters and behaviour of
+spawned machines. In the end, the usage in job definitions is
+presented.</p>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Testing Frameworks]]></title>
             <link>https://kraken.ci/blog/testing-frameworks</link>
             <guid>testing-frameworks</guid>
             <pubDate>Fri, 06 Aug 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[There have been added three articles in the Kraken's documentation]]></description>
+            <content:encoded><![CDATA[<p>There have been added three articles in the Kraken&#x27;s documentation
+about integration of testing frameworks with Kraken CI:</p><ul><li><a href="/docs/tf-junit">JUnit</a></li><li><a href="/docs/tf-pytest">Pytest</a></li><li><a href="/docs/tf-robotframework">RobotFramework</a></li></ul><p>The latest release <a href="https://github.com/Kraken-CI/kraken/releases/tag/v0.698">0.698
+release</a>
+brings also a new feature: collecting, storing and presenting custom
+generated reports in e.g. HTML.</p><p><a href="/docs/quick-start">Quick Start</a> guide shows how to install Kraken CI.</p><h3>Testing Frameworks</h3><p>The articles about testing frameworks shows how to use well known
+frameworks like <a href="/docs/tf-junit">JUnit</a>, <a href="/docs/tf-pytest">Pytest</a> and
+<a href="/docs/tf-robotframework">RobotFramework</a> inside Kraken CI. There are
+presented stage workflow schemas with steps that:</p><ol><li>execute the tests using particular framework</li><li>report results to Kraken server</li><li>store generated custom reports on Kraken server</li></ol><h3>Custom Reports</h3><p>The latest release <a href="https://github.com/Kraken-CI/kraken/releases/tag/v0.698">0.698
+release</a>
+allows now for storing and presenting custom reports in e.g. HTML format.
+The are available along current generic test case results page.</p><p>More details about step for storing reports can be found in <a href="/docs/schema#artifacts">the
+docs</a> and example usage on <a href="/docs/tf-robotframework">RobotFramework
+example</a>.</p>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Autoscaling with AWS]]></title>
@@ -20,6 +52,17 @@
             <guid>autoscaling-with-aws</guid>
             <pubDate>Tue, 20 Jul 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[The latest release 0.687 release]]></description>
+            <content:encoded><![CDATA[<p>The latest release <a href="https://github.com/Kraken-CI/kraken/releases/tag/v0.687">0.687 release</a>
+brings a stabilization to autoscaling feature.</p><p><a href="/docs/quick-start">Quick Start</a> guide shows how to install Kraken CI.</p><p><a href="/docs/guide-autoscale">Autoscaling Guide</a> shows how to use autoscaling with AWS.</p><p>Maintaining a fixed number of machines for Kraken CI can be costly. If
+there is no high traffic of builds, then some machines sit idle and
+waste power. The solution to this problem is autoscaling ie. spawning
+machines with Kraken Agents dynamically depending on the current needs
+in the Kraken CI. If there is submitted a new flow with many building
+or testing jobs, then new machines are spawned. When the flow
+completes, machines are terminated and no costs are incurred.</p><p>The <a href="/docs/guide-autoscale">Autoscaling Guide</a> shows how to configure
+access to AWS, then how to configure parameters and behaviour of
+spawned machines. In the end, the usage in job definitions is
+presented.</p>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Kraken Release 0.645]]></title>
@@ -27,6 +70,8 @@
             <guid>kraken-release-0-645</guid>
             <pubDate>Sun, 04 Jul 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[The 0.645 release contains several new features and improvements and some fixes.]]></description>
+            <content:encoded><![CDATA[<p>The <a href="https://github.com/Kraken-CI/kraken/releases/tag/v0.645">0.645 release</a> contains several new features and improvements and some fixes.
+The most noteworthy changes are:</p><ul><li>added background steps</li><li>added support for Rocky Linux</li><li>replaced Celery with RQ for background tasks</li><li>upgraded Angular and PrimeNG to 12</li></ul><p><a href="/docs/quick-start">Quick Start</a> guide shows how to install Kraken CI.</p><h2>The list of changes</h2><p>The complete list of changes looks as follows.</p><p>Features &amp; improvements:</p><ul><li>added more details about RQ jobs on the diagnostics page</li><li>added changing name of branch in a repo</li><li>when run is being started then stage schema is refreshed from repo</li><li>added button for checking email and AWS settings</li><li>converted timestamps columns to be with timezone in Postgresql schema</li><li>converted all char(n) columns in db to text</li><li>added doing db backup during deployment</li></ul><p>Fixes:</p><ul><li>fixed deleting dangling agents with no AWS instance</li><li>added db rollback in watchdog in case of exception</li><li>improved checking agents vm to destroy</li><li>pytest tool: added check if collecting tests failed</li><li>fixed counting available agents</li><li>added detecting jobs with no agent and spawning them</li><li>improved creating system records</li><li>improved checking args to agent</li><li>improved pulling git repo in git tool</li></ul><p>More details about background steps can be found in <a href="/docs/schema#shell">the documentation</a>.</p>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Kraken Release 0.557]]></title>
@@ -34,6 +79,27 @@
             <guid>kraken-release-0-557</guid>
             <pubDate>Sat, 22 May 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[The 0.557 release contains several new features and improvements and some fixes.]]></description>
+            <content:encoded><![CDATA[<p>The <a href="https://github.com/Kraken-CI/kraken/releases/tag/v0.557">0.557 release</a> contains several new features and improvements and some fixes.
+The most noteworthy changes are:</p><ul><li>improved diagnostics capabilities, i.e. browsing internal logs from Kraken services</li><li>integration with AWS EC2 - this is in beta state</li></ul><p><a href="/docs/quick-start">Quick Start</a> guide shows how to install Kraken CI.</p><h2>The list of changes</h2><p>The complete list of changes looks as follows.</p><p>Features &amp; improvements:</p><ul><li>#105 added browsing Kraken logs in diagnostics page</li><li>added errors number indicator in the top menu bar</li><li>added integration with AWS EC2 - spawning VMs for jobs (beta/preview)</li><li>added loading status with a spinner to submit, refresh and other buttons</li><li>added interpolating variables in system and agents_group names in a workflow schema</li><li>added adding kraken user to docker group and configuring sudo in agent installer</li><li>kraken workflow: switched to AWS agents in build and static analysis jobs</li><li>added codebeat badge to readme</li></ul><p>Fixes:</p><ul><li>fixed preparing repo changes data</li><li>fixed counting agents in agents group</li><li>fixed updating schema_from_repo_enabled</li><li>fixed colors of top menu items</li></ul><h2>Improved diagnostics</h2><h3>Logs</h3><p>The diagnostics page accessible from the top menu bar got a
+new feature: browser of Kraken services logs. The second tab on the
+diagnostics page, called <code>Logs</code>, now contains filters and a
+logs window.</p><div img="screen-diagnostics-logs.png"></div><p>The list of select buttons at the top allows selecting Kraken services
+like server/api, celery or watchdog. Below, there is a dropbox with
+log level selection, from info level to error level. When the celery
+service is selected, selecting task type from the dropbox list is also
+possible.</p><h3>Error Indicator</h3><p>To make it easier to reach logs with some problems, there have been
+added an error indicator in the top menu bar.</p><div img="screen-error-indicator.png"></div><p>It is visible on all Kraken pages. If it is greater than 0, it is
+displayed in reddish color to get user attention. The count indicates
+the number of errors in Kraken services logs in the last hour.
+When clicked, it leads to the logs page.</p><h2>Preliminary AWS EC2 integration</h2><p>The second, quite exciting feature, is integration with AWS EC2. The
+integration allows for autoscaling Kraken&#x27;s agents. If no jobs are
+waiting for execution, then there are no waitng agents on EC2
+VMs. When they appear, new VMs in EC2 are spawned immediately. If the
+number of jobs grows, the number of VMs can grow as well. There is
+possible to set a limit for the number of VMs. VMs can be reused or
+reclaimed after a given period of idle time or after an indicated
+number of executed jobs.</p><p>The configuration in Kraken for AWS EC2 integration is 1) in global
+settings (credentials) and 2) on the agent&#x27;s group page.</p><p>More details will be presented when the feature is completed.</p>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Kraken Release 0.492]]></title>
@@ -41,6 +107,7 @@
             <guid>kraken-release-0-492</guid>
             <pubDate>Sat, 24 Apr 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[The 0.492 release contains one feature:]]></description>
+            <content:encoded><![CDATA[<p>The 0.492 release contains one feature:</p><ul><li>status badges</li></ul><p>and two fixes:</p><ul><li>fixed collecting commits info in case there are deleted files</li><li>fixed returning tests results counts - mistake during code cleanup</li></ul><p>The status badges indicate the current quality of a branch of a project.</p><div img="kraken-badges.png"></div><p>There are three types of badges. They are indicating:</p><ul><li>building state (if there are no errors)</li><li>tests results with fixes and regression counts</li><li>issues count with a count of newly discovered issues</li></ul><p>Links to the badges are available on a branch management page, in the Status Badge tab:</p><div img="screen-branch-mgmt-badges.png"></div>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Kraken's Code Quality]]></title>
@@ -48,6 +115,13 @@
             <guid>kraken-code-quality</guid>
             <pubDate>Thu, 22 Apr 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[The last week brings to Kraken's source code many quality]]></description>
+            <content:encoded><![CDATA[<p>The last week brings to Kraken&#x27;s source code many quality
+improvements. Services like
+<a href="https://lgtm.com/projects/g/Kraken-CI/kraken/">LGTM</a> and
+<a href="https://app.codacy.com/gh/Kraken-CI/kraken/dashboard">Codacy</a> help
+fixing code smells but also serious problems. So during that week in
+Kraken&#x27;s repository, many commits have landed that refactor the
+code, fix issues and do code cleanup.</p><p>Thanks to all these changes, the project earned these quality badges:</p><div img="quality-badges.png"></div>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Kraken Release 0.475]]></title>
@@ -55,6 +129,17 @@
             <guid>kraken-release-0-475</guid>
             <pubDate>Mon, 12 Apr 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[The 0.475 release contains three main features:]]></description>
+            <content:encoded><![CDATA[<p>The 0.475 release contains three main features:</p><ul><li>presenting <strong>the status of the last flows</strong> on the Kraken main page</li><li>presenting <strong>changes in Git repository</strong> that got into a given flow</li><li>presenting <strong>step duration</strong> on Run page, on the selected job, on Steps tab</li></ul><h2>The last flows status on the Kraken main page</h2><p>The Kraken main page presents a list of branches for each
+project.  On the Demo project shown below, there are multiple
+branches. Now under each branch, there are exposed the last completed
+flow and the last in-progress flow. On the side, there is added a time
+in grey how long ago the flow was completed or created.</p><div img="screen-main-last-flows.png"></div><h2>Git repo changes on a flow page</h2><p>The flow can be triggered by a push to Github PR or a Git branch. Now
+the flow page presents information about these Git changes.</p><p>If a push to Github PR triggered a flow, then it is presented
+in <strong>Repo Changes</strong> tab on the flow page.</p><div img="screen-flow-repo-trigger.png"></div><p>If a stage has a repository defined in a trigger section, then the changes
+detected since previous flow are presented on another <strong>Repo Changes</strong>
+tab for the selected stage.</p><div img="screen-flow-run-repo-changes.png"></div><h2>Step duration on Run page</h2><p>The run page show steps&#x27; status for the selected job on the Steps
+tab. Now besides the current state of a step, there is included its
+duration in seconds.</p><div img="screen-run-step-duration.png"></div>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Hello World!]]></title>
@@ -62,6 +147,7 @@
             <guid>hello-world</guid>
             <pubDate>Sun, 26 Jul 2020 00:00:00 GMT</pubDate>
             <description><![CDATA[Welcome to Kraken CI blog. This is the first post on this blog.]]></description>
+            <content:encoded><![CDATA[<p>Welcome to Kraken CI blog. This is the first post on this blog.</p>]]></content:encoded>
         </item>
     </channel>
 </rss>
