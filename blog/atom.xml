@@ -2,11 +2,29 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kraken.ci/blog</id>
     <title>Kraken CI Blog</title>
-    <updated>2021-11-12T00:00:00.000Z</updated>
+    <updated>2021-12-09T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://kraken.ci/blog"/>
     <subtitle>Kraken CI Blog</subtitle>
     <icon>https://kraken.ci/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Installation on Kubernetes]]></title>
+        <id>installation-to-kubernetes</id>
+        <link href="https://kraken.ci/blog/installation-to-kubernetes"/>
+        <updated>2021-12-09T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The latest release 0.788 release]]></summary>
+        <content type="html"><![CDATA[<p>The latest release <a href="https://github.com/Kraken-CI/kraken/releases/tag/v0.788">0.788 release</a>
+brings support for Kraken installation into Kubernetes using Helm chart.</p><p><a href="/docs/install-helm">Helm installation</a> guide shows how to do this.</p><p>Full information about current and past Helm chart releases can be
+found on: <a href="https://artifacthub.io/packages/helm/kraken-ci/kraken-ci">https://artifacthub.io/packages/helm/kraken-ci/kraken-ci</a>.</p><p>More information about ArtiactHub is below.</p><div img="artifacthub-io.png"></div><p>There are presented install and upgrade steps. The templates of the
+charts are available, so it is possible to check what and how they
+will be installed in a Kubernetes cluster. There are also shown
+configuration fields with default values.</p><p>Besides that, the history of releases is provided, and a list of the
+referenced container images in pod deployments.</p>]]></content>
+        <author>
+            <name>Michal Nowikowski</name>
+            <uri>https://www.linkedin.com/in/godfryd</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Webhooks for GitLab and Gitea]]></title>
         <id>webhooks-for-gitlab-and-gitea</id>
