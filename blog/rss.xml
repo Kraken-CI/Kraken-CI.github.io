@@ -12,11 +12,11 @@
             <link>https://kraken.ci/blog/autoscaling-with-kubernetes</link>
             <guid>autoscaling-with-kubernetes</guid>
             <pubDate>Thu, 30 Dec 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[Previous Kraken's release introduced new installation method into Kubernetes using Helm chart.]]></description>
-            <content:encoded><![CDATA[<p>Previous Kraken&#x27;s release introduced new installation method into Kubernetes using Helm chart.
+            <description><![CDATA[Previous Kraken's release introduced a new installation method into Kubernetes using Helm chart.]]></description>
+            <content:encoded><![CDATA[<p>Previous Kraken&#x27;s release introduced a new installation method into Kubernetes using Helm chart.
 Today&#x27;s <a href="https://github.com/Kraken-CI/kraken/releases/tag/v0.813">0.813 release</a>
-allows for autoscaling on Kubernetes.</p><p>More information about Kraken on Kubernetes is below.</p><p>Autoscaling <a href="/docs/autoscale-in-cloud">docs</a> has been
-update and now includes details about Kubernetes.</p><p>Additionally, a new <a href="/docs/guide-kubernetes">guide for Kubernetes</a> has
+allows for autoscaling on Kubernetes.</p><p>More information about Kraken on Kubernetes is below.</p><p>Autoscaling <a href="/docs/autoscale-in-cloud">docs</a> have been
+updated and now includes details about Kubernetes.</p><p>Additionally, a new <a href="/docs/guide-kubernetes">guide for Kubernetes</a> has
 been prepared.  It presents, step by step, how to deploy Kraken to
 Kubernetes cluster, configure autoscaling on Kubernetes and how to run
 the first job there.</p>]]></content:encoded>
