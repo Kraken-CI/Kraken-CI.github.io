@@ -4,9 +4,23 @@
         <title>Kraken CI Blog</title>
         <link>https://kraken.ci/blog</link>
         <description>Kraken CI Blog</description>
-        <lastBuildDate>Thu, 09 Dec 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 30 Dec 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Autoscaling with Kubernetes]]></title>
+            <link>https://kraken.ci/blog/autoscaling-with-kubernetes</link>
+            <guid>autoscaling-with-kubernetes</guid>
+            <pubDate>Thu, 30 Dec 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Previous Kraken's release introduced new installation method into Kubernetes using Helm chart.]]></description>
+            <content:encoded><![CDATA[<p>Previous Kraken&#x27;s release introduced new installation method into Kubernetes using Helm chart.
+Today&#x27;s <a href="https://github.com/Kraken-CI/kraken/releases/tag/v0.813">0.813 release</a>
+allows for autoscaling on Kubernetes.</p><p>More information about Kraken on Kubernetes is below.</p><p>Autoscaling <a href="/docs/autoscale-in-cloud">docs</a> has been
+update and now includes details about Kubernetes.</p><p>Additionally, a new <a href="/docs/guide-kubernetes">guide for Kubernetes</a> has
+been prepared.  It presents, step by step, how to deploy Kraken to
+Kubernetes cluster, configure autoscaling on Kubernetes and how to run
+the first job there.</p>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Installation on Kubernetes]]></title>
             <link>https://kraken.ci/blog/installation-to-kubernetes</link>
