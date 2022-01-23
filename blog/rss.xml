@@ -4,9 +4,28 @@
         <title>Kraken CI Blog</title>
         <link>https://kraken.ci/blog</link>
         <description>Kraken CI Blog</description>
-        <lastBuildDate>Thu, 30 Dec 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 24 Jan 2022 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Commenting Test Results]]></title>
+            <link>https://kraken.ci/blog/commenting-test-results</link>
+            <guid>commenting-test-results</guid>
+            <pubDate>Mon, 24 Jan 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[This time not about autoscaling or other cloud feature. This time we]]></description>
+            <content:encoded><![CDATA[<p>This time not about autoscaling or other cloud feature. This time we
+are coming back to the core area of Kraken: testing. Today&#x27;s <a href="https://github.com/Kraken-CI/kraken/releases/tag/v0.854">0.854
+release</a>
+introduces test results commenting.</p><p>More information about commenting is below.</p><p><a href="/docs/test-results#comments">Test results comments</a> feature allows
+for adding sticky comments to test case results. When you spot a new
+failure, you may add a comment stating, e.g. the reason for the failure
+or link to a bug in a bug tracker. If the failure persists in the
+subsequent test runs, the added comment is still presented next to
+the new result. If new facts about the failure are revealed, you may
+extend the comment.</p><p>There is also a state of the comment. More information about these
+details can be found in the <a href="/docs/test-results#comments">docs page</a>
+of the results comments feature.</p>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Autoscaling with Kubernetes]]></title>
             <link>https://kraken.ci/blog/autoscaling-with-kubernetes</link>
