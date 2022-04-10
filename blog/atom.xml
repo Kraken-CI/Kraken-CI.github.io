@@ -2,11 +2,51 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kraken.ci/blog</id>
     <title>Kraken CI Blog</title>
-    <updated>2022-01-24T00:00:00.000Z</updated>
+    <updated>2022-04-11T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://kraken.ci/blog"/>
     <subtitle>Kraken CI Blog</subtitle>
     <icon>https://kraken.ci/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[The Last Few Releases]]></title>
+        <id>last-few-releases</id>
+        <link href="https://kraken.ci/blog/last-few-releases"/>
+        <updated>2022-04-11T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The last mentioned Kraken CI release on the blog was]]></summary>
+        <content type="html"><![CDATA[<p>The last mentioned Kraken CI release on the blog was
+<a href="https://github.com/Kraken-CI/kraken/releases/tag/v0.854" target="_blank" rel="noopener noreferrer">0.854</a>.
+Since then there was several releases:
+<a href="https://github.com/Kraken-CI/kraken/releases/tag/v0.868" target="_blank" rel="noopener noreferrer">0.868</a>,
+<a href="https://github.com/Kraken-CI/kraken/releases/tag/v0.909" target="_blank" rel="noopener noreferrer">0.909</a> and
+the last one:
+<strong><a href="https://github.com/Kraken-CI/kraken/releases/tag/v0.933" target="_blank" rel="noopener noreferrer">0.933</a></strong>.
+They introduce various new features and lots of fixes.</p><p>The changes include:</p><ul><li>added a chart with results history on a flow page</li><li>added a multi-dimentional table with pass ratio stats of a flow</li><li>added masking secrets in logs</li><li>many improvements to the job's log panel like coloring and timestamps on/off</li><li>added navigation to prev and next flow in breadcrumb on the flow page</li></ul><p>More information about these changes is below.</p><h3 class="anchor anchorWithStickyNavbar_mojV" id="chart-with-pass-ratio-history">Chart with Pass Ratio History<a class="hash-link" href="#chart-with-pass-ratio-history" title="Direct link to heading">​</a></h3><p>The flow page has now two new tabs. One of them is a <code>Results Charts</code>
+tab.  On this tab, a results history chart can be found.  It presents
+a pass ratio line in % units and two more lines: passed and total that
+shows the number of passed tests and the total number of tests over time.</p><a href="/img/screen-flow-pass-ratio-history.png" target="blank"><img src="/img/screen-flow-pass-ratio-history.png" style="box-shadow:0 10px 10px 5px #777;margin-bottom:30px"></a><h3 class="anchor anchorWithStickyNavbar_mojV" id="pass-ratio-stats-of-flow">Pass Ratio Stats of Flow<a class="hash-link" href="#pass-ratio-stats-of-flow" title="Direct link to heading">​</a></h3><p>On the other tab, <code>Results Stats</code>, a table shows tests passing
+stats. The dimensions of the table are dynamic. They can be selected
+from dropdowns available over the table. There can be chosen:
+<code>Stage</code>, <code>Agents Group</code> and <code>System</code>.</p><a href="/img/screen-flow-pass-ratio-stats.png" target="blank"><img src="/img/screen-flow-pass-ratio-stats.png" style="box-shadow:0 10px 10px 5px #777;margin-bottom:30px"></a><h3 class="anchor anchorWithStickyNavbar_mojV" id="secrets-masking">Secrets Masking<a class="hash-link" href="#secrets-masking" title="Direct link to heading">​</a></h3><p>Another feature is related to security. Quite often, a password or
+some access key needs to be passed during build or test
+execution. Sometimes this secret is revealed in logs. Now Kraken knows
+secrets defined in a project and it masks them in the logs. The
+secrets are caught quite early and they do not leave a machine that
+traced them to logs. The log database stores only masked passwords.</p><p>There is one interesting property of this masking that cannot be found
+in other CI systems: it can mask multiline secrets like SSH private
+key.</p><a href="/img/screen-logs-masked-secrets.png" target="blank"><img src="/img/screen-logs-masked-secrets.png" style="box-shadow:0 10px 10px 5px #777;margin-bottom:30px"></a><h3 class="anchor anchorWithStickyNavbar_mojV" id="log-panel-improvements">Log Panel Improvements<a class="hash-link" href="#log-panel-improvements" title="Direct link to heading">​</a></h3><p>There were added several improvements to the log panel:</p><ul><li>coloring ANSI color codes in HTML log box</li><li>turning timestamps on/off</li><li>showing missing timestamps</li><li>log loading indicator</li></ul><p>The screens below show colored logs and timestamps that are either
+switched off or switched on.</p><a href="/img/screen-log-box-timestamps-off.png" target="blank"><img src="/img/screen-log-box-timestamps-off.png" style="box-shadow:0 10px 10px 5px #777;margin-bottom:30px"></a><a href="/img/screen-log-box-timestamps-on.png" target="blank"><img src="/img/screen-log-box-timestamps-on.png" style="box-shadow:0 10px 10px 5px #777;margin-bottom:30px"></a><h3 class="anchor anchorWithStickyNavbar_mojV" id="flow-navigation-improved">Flow Navigation Improved<a class="hash-link" href="#flow-navigation-improved" title="Direct link to heading">​</a></h3><p>The last feature presented here is flows navigation. In the breadcrumb
+bar there are shown two arrows that allow for navigating to the
+previous flow and to the next flow.</p><a href="/img/screen-flow-navigation.png" target="blank"><img src="/img/screen-flow-navigation.png" style="box-shadow:0 10px 10px 5px #777;margin-bottom:30px"></a>]]></content>
+        <author>
+            <name>Michal Nowikowski</name>
+            <uri>https://www.linkedin.com/in/godfryd</uri>
+        </author>
+        <category label="kraken" term="kraken"/>
+        <category label="results" term="results"/>
+        <category label="charts" term="charts"/>
+        <category label="secrets" term="secrets"/>
+        <category label="logs" term="logs"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Commenting Test Results]]></title>
         <id>commenting-test-results</id>
