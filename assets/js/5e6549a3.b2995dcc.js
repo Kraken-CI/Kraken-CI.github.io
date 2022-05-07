@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkkraken_ci_website=self.webpackChunkkraken_ci_website||[]).push([[2167],{3641:function(e){e.exports=JSON.parse('{"allTagsPath":"/blog/tags","name":"mlops","count":1,"permalink":"/blog/tags/mlops"}')}}]);

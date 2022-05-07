@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkkraken_ci_website=self.webpackChunkkraken_ci_website||[]).push([[4803],{542:function(e){e.exports=JSON.parse('{"label":"webhooks","permalink":"/blog/tags/webhooks","allTagsPath":"/blog/tags","count":4}')}}]);
