@@ -4,10 +4,32 @@
         <title>Kraken CI Blog</title>
         <link>https://kraken.ci/blog</link>
         <description>Kraken CI Blog</description>
-        <lastBuildDate>Fri, 13 May 2022 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 12 Sep 2022 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Custom Tools]]></title>
+            <link>https://kraken.ci/blog/custom-tools</link>
+            <guid>custom-tools</guid>
+            <pubDate>Mon, 12 Sep 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[There is a new way for extending Kraken CI: custom tools. A]]></description>
+            <content:encoded><![CDATA[<p>There is a new way for extending Kraken CI: custom tools. A
+<a href="/docs/tools">tool</a> in Kraken CI provides particular functionality that is
+used in steps in a workflow schema. Till now, there were only built-in
+tools like <code>git</code> for checking out source code from Git repository, or
+<code>artifacts</code> for storing or retrieving files from Kraken global
+<a href="/docs/storage">storage</a> or finally <code>shell</code> for running commands in a shell.</p><p>Custom tools allow for developing such tools by third parties, sharing
+them with others and installing and using them in Kraken Server.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="custom-tools-details">Custom Tools Details<a class="hash-link" href="#custom-tools-details" title="Direct link to heading">​</a></h3><p>Docs for <a href="/docs/tools">custom tools</a> first present the whole
+architecture of Kraken CI with Agents and tools. Then the interaction
+between Kraken Agent and a tool is shown with an example tool. The
+following sections show how to declare a custom tool and add it to
+Kraken Server so it can be used in workflows. It is also presented how
+to develop custom tools locally, under the desk.</p>]]></content:encoded>
+            <category>kraken</category>
+            <category>devops</category>
+            <category>cicd</category>
+        </item>
         <item>
             <title><![CDATA[Hello Worlds in 22 Langs on Kraken CI]]></title>
             <link>https://kraken.ci/blog/hello-worlds-in-22-langs-on-kraken-ci</link>

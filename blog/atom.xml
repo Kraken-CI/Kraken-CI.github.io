@@ -2,11 +2,37 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kraken.ci/blog</id>
     <title>Kraken CI Blog</title>
-    <updated>2022-05-13T00:00:00.000Z</updated>
+    <updated>2022-09-12T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://kraken.ci/blog"/>
     <subtitle>Kraken CI Blog</subtitle>
     <icon>https://kraken.ci/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Custom Tools]]></title>
+        <id>custom-tools</id>
+        <link href="https://kraken.ci/blog/custom-tools"/>
+        <updated>2022-09-12T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[There is a new way for extending Kraken CI: custom tools. A]]></summary>
+        <content type="html"><![CDATA[<p>There is a new way for extending Kraken CI: custom tools. A
+<a href="/docs/tools">tool</a> in Kraken CI provides particular functionality that is
+used in steps in a workflow schema. Till now, there were only built-in
+tools like <code>git</code> for checking out source code from Git repository, or
+<code>artifacts</code> for storing or retrieving files from Kraken global
+<a href="/docs/storage">storage</a> or finally <code>shell</code> for running commands in a shell.</p><p>Custom tools allow for developing such tools by third parties, sharing
+them with others and installing and using them in Kraken Server.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="custom-tools-details">Custom Tools Details<a class="hash-link" href="#custom-tools-details" title="Direct link to heading">​</a></h3><p>Docs for <a href="/docs/tools">custom tools</a> first present the whole
+architecture of Kraken CI with Agents and tools. Then the interaction
+between Kraken Agent and a tool is shown with an example tool. The
+following sections show how to declare a custom tool and add it to
+Kraken Server so it can be used in workflows. It is also presented how
+to develop custom tools locally, under the desk.</p>]]></content>
+        <author>
+            <name>Michal Nowikowski</name>
+            <uri>https://www.linkedin.com/in/godfryd</uri>
+        </author>
+        <category label="kraken" term="kraken"/>
+        <category label="devops" term="devops"/>
+        <category label="cicd" term="cicd"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Hello Worlds in 22 Langs on Kraken CI]]></title>
         <id>hello-worlds-in-22-langs-on-kraken-ci</id>
