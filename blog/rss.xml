@@ -4,10 +4,25 @@
         <title>Kraken CI Blog</title>
         <link>https://kraken.ci/blog</link>
         <description>Kraken CI Blog</description>
-        <lastBuildDate>Tue, 20 Sep 2022 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 17 Oct 2022 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Users Management]]></title>
+            <link>https://kraken.ci/blog/users-management</link>
+            <guid>users-management</guid>
+            <pubDate>Mon, 17 Oct 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Users management is a basic functionality that allows for adding users]]></description>
+            <content:encoded><![CDATA[<p>Users management is a basic functionality that allows for adding users
+and assigning roles to them. This translates to users authatication
+and authorization. In case of Kraken CI, this is described on <a href="/docs/users">users
+docs</a> pages. This feature landed in <a href="https://github.com/Kraken-CI/kraken/releases/tag/v0.1037" target="_blank" rel="noopener noreferrer">0.1037
+version</a>.</p><p>Here is a screen that shows web UI for managing users.</p><a href="/img/screen-users.png" target="blank"><img src="/img/screen-users.png" style="box-shadow:0 10px 10px 5px #777;margin-bottom:30px"></a>]]></content:encoded>
+            <category>kraken</category>
+            <category>devops</category>
+            <category>cicd</category>
+        </item>
         <item>
             <title><![CDATA[Agents in Docker Compose]]></title>
             <link>https://kraken.ci/blog/agents-in-docker-compose</link>
