@@ -2,11 +2,33 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kraken.ci/blog</id>
     <title>Kraken CI Blog</title>
-    <updated>2022-10-17T00:00:00.000Z</updated>
+    <updated>2022-11-02T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://kraken.ci/blog"/>
     <subtitle>Kraken CI Blog</subtitle>
     <icon>https://kraken.ci/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[LDAP and OIDC/OAuth]]></title>
+        <id>ldap-and-oidc-oauth</id>
+        <link href="https://kraken.ci/blog/ldap-and-oidc-oauth"/>
+        <updated>2022-11-02T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[There has beed developed an addition to users management:]]></summary>
+        <content type="html"><![CDATA[<p>There has beed developed an addition to users management:
+authentication against external authentication servers using either
+LDAP or OpenID Connect with OAuth.</p><p>LDAP allows administrator to connect Kraken system to corporate LDAP
+or Active Directory. OIDC &amp; OAuth beside bringing another source of
+users' identity it also provides Signe Sign-On scheme.</p><p>This features landed in <a href="https://github.com/Kraken-CI/kraken/releases/tag/v0.1047" target="_blank" rel="noopener noreferrer">0.1047
+version</a> and
+is documented in <a href="/docs/users#identity-providers">identity providers</a>
+docs.</p><p>Here is a screen that shows web UI for configuring Identity Providers.</p><a href="/img/screen-idp-all-disabled.png" target="blank"><img src="/img/screen-idp-all-disabled.png" style="box-shadow:0 10px 10px 5px #777;margin-bottom:30px"></a>]]></content>
+        <author>
+            <name>Michal Nowikowski</name>
+            <uri>https://www.linkedin.com/in/godfryd</uri>
+        </author>
+        <category label="kraken" term="kraken"/>
+        <category label="devops" term="devops"/>
+        <category label="cicd" term="cicd"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Users Management]]></title>
         <id>users-management</id>

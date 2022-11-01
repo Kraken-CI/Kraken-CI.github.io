@@ -4,10 +4,28 @@
         <title>Kraken CI Blog</title>
         <link>https://kraken.ci/blog</link>
         <description>Kraken CI Blog</description>
-        <lastBuildDate>Mon, 17 Oct 2022 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 02 Nov 2022 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[LDAP and OIDC/OAuth]]></title>
+            <link>https://kraken.ci/blog/ldap-and-oidc-oauth</link>
+            <guid>ldap-and-oidc-oauth</guid>
+            <pubDate>Wed, 02 Nov 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[There has beed developed an addition to users management:]]></description>
+            <content:encoded><![CDATA[<p>There has beed developed an addition to users management:
+authentication against external authentication servers using either
+LDAP or OpenID Connect with OAuth.</p><p>LDAP allows administrator to connect Kraken system to corporate LDAP
+or Active Directory. OIDC &amp; OAuth beside bringing another source of
+users' identity it also provides Signe Sign-On scheme.</p><p>This features landed in <a href="https://github.com/Kraken-CI/kraken/releases/tag/v0.1047" target="_blank" rel="noopener noreferrer">0.1047
+version</a> and
+is documented in <a href="/docs/users#identity-providers">identity providers</a>
+docs.</p><p>Here is a screen that shows web UI for configuring Identity Providers.</p><a href="/img/screen-idp-all-disabled.png" target="blank"><img src="/img/screen-idp-all-disabled.png" style="box-shadow:0 10px 10px 5px #777;margin-bottom:30px"></a>]]></content:encoded>
+            <category>kraken</category>
+            <category>devops</category>
+            <category>cicd</category>
+        </item>
         <item>
             <title><![CDATA[Users Management]]></title>
             <link>https://kraken.ci/blog/users-management</link>
