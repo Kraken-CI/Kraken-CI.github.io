@@ -2,11 +2,37 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kraken.ci/blog</id>
     <title>Kraken CI Blog</title>
-    <updated>2022-11-02T00:00:00.000Z</updated>
+    <updated>2022-12-10T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://kraken.ci/blog"/>
     <subtitle>Kraken CI Blog</subtitle>
     <icon>https://kraken.ci/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Migration to Newer Dependencies]]></title>
+        <id>migration-to-newer-deps</id>
+        <link href="https://kraken.ci/blog/migration-to-newer-deps"/>
+        <updated>2022-12-10T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Till now, Kraken CI relied on pretty old versions]]></summary>
+        <content type="html"><![CDATA[<p>Till now, Kraken CI relied on pretty old versions
+of <a href="https://clickhouse.com/" target="_blank" rel="noopener noreferrer">Clickhouse</a>
+and <a href="https://min.io/" target="_blank" rel="noopener noreferrer">MinIO</a>. In the latest Kraken CI release, both
+have been upgraded.</p><p>Clickhouse has been upgraded from <code>20.11.4.13</code> to <code>22.10.2.11</code>. The
+migration is seamless from the Kraken CI point of view. There is no need
+for explicit data migration.</p><p>MinIO has been upgraded from <code>RELEASE.2020-12-18T03-27-42Z</code> to
+<code>RELEASE.2022-10-24T18-35-07Z</code>. The major visible change is the names
+of environment variables that hold credentials. Previously they were
+<code>MINIO_ACCESS_KEY</code> and <code>MINIO_SECRET_KEY</code>, now they are
+<code>MINIO_ROOT_USER</code> and <code>MINIO_ROOT_PASSWORD</code>, respectively. Values of
+these variables may stay the same; they do not need to be changed.</p><p>These changes landed in
+<a href="https://github.com/Kraken-CI/kraken/releases/tag/v0.1091" target="_blank" rel="noopener noreferrer">0.1091 version</a>.</p>]]></content>
+        <author>
+            <name>Michal Nowikowski</name>
+            <uri>https://www.linkedin.com/in/godfryd</uri>
+        </author>
+        <category label="kraken" term="kraken"/>
+        <category label="devops" term="devops"/>
+        <category label="cicd" term="cicd"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[LDAP and OIDC/OAuth]]></title>
         <id>ldap-and-oidc-oauth</id>

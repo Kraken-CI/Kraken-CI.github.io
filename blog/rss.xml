@@ -4,10 +4,32 @@
         <title>Kraken CI Blog</title>
         <link>https://kraken.ci/blog</link>
         <description>Kraken CI Blog</description>
-        <lastBuildDate>Wed, 02 Nov 2022 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 10 Dec 2022 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Migration to Newer Dependencies]]></title>
+            <link>https://kraken.ci/blog/migration-to-newer-deps</link>
+            <guid>migration-to-newer-deps</guid>
+            <pubDate>Sat, 10 Dec 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Till now, Kraken CI relied on pretty old versions]]></description>
+            <content:encoded><![CDATA[<p>Till now, Kraken CI relied on pretty old versions
+of <a href="https://clickhouse.com/" target="_blank" rel="noopener noreferrer">Clickhouse</a>
+and <a href="https://min.io/" target="_blank" rel="noopener noreferrer">MinIO</a>. In the latest Kraken CI release, both
+have been upgraded.</p><p>Clickhouse has been upgraded from <code>20.11.4.13</code> to <code>22.10.2.11</code>. The
+migration is seamless from the Kraken CI point of view. There is no need
+for explicit data migration.</p><p>MinIO has been upgraded from <code>RELEASE.2020-12-18T03-27-42Z</code> to
+<code>RELEASE.2022-10-24T18-35-07Z</code>. The major visible change is the names
+of environment variables that hold credentials. Previously they were
+<code>MINIO_ACCESS_KEY</code> and <code>MINIO_SECRET_KEY</code>, now they are
+<code>MINIO_ROOT_USER</code> and <code>MINIO_ROOT_PASSWORD</code>, respectively. Values of
+these variables may stay the same; they do not need to be changed.</p><p>These changes landed in
+<a href="https://github.com/Kraken-CI/kraken/releases/tag/v0.1091" target="_blank" rel="noopener noreferrer">0.1091 version</a>.</p>]]></content:encoded>
+            <category>kraken</category>
+            <category>devops</category>
+            <category>cicd</category>
+        </item>
         <item>
             <title><![CDATA[LDAP and OIDC/OAuth]]></title>
             <link>https://kraken.ci/blog/ldap-and-oidc-oauth</link>
