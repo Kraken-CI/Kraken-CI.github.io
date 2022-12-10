@@ -4,10 +4,28 @@
         <title>Kraken CI Blog</title>
         <link>https://kraken.ci/blog</link>
         <description>Kraken CI Blog</description>
-        <lastBuildDate>Sat, 10 Dec 2022 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 12 Dec 2022 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Support for CCTray]]></title>
+            <link>https://kraken.ci/blog/support-for-cctray</link>
+            <guid>support-for-cctray</guid>
+            <pubDate>Mon, 12 Dec 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[CCTray is a protocol that allows users to fetch]]></description>
+            <content:encoded><![CDATA[<p><a href="https://cctray.org" target="_blank" rel="noopener noreferrer">CCTray</a> is a protocol that allows users to fetch
+the current state of a branch using <a href="https://cctray.org/clients/" target="_blank" rel="noopener noreferrer">dedicated
+clientes</a>.</p><p>Kraken CI exposes a URL for a given branch that can be put to such a
+client. This URL is available on a branch management page, in the
+<code>Status Badge &amp; CCTray</code> tab:</p><a href="/img/screen-branch-mgmt-badges.png" target="blank"><img src="/img/screen-branch-mgmt-badges.png" style="box-shadow:0 10px 10px 5px #777;margin-bottom:30px"></a><p>These feature landed in
+<a href="https://github.com/Kraken-CI/kraken/releases/tag/v0.1097" target="_blank" rel="noopener noreferrer">0.1097 version</a>
+and is documented in <a href="/docs/notifications#cctray">notifications docs</a>
+docs.</p>]]></content:encoded>
+            <category>kraken</category>
+            <category>devops</category>
+            <category>cicd</category>
+        </item>
         <item>
             <title><![CDATA[Migration to Newer Dependencies]]></title>
             <link>https://kraken.ci/blog/migration-to-newer-deps</link>
