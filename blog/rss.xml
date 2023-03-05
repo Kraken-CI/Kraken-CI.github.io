@@ -4,10 +4,35 @@
         <title>Kraken CI Blog</title>
         <link>https://kraken.ci/blog</link>
         <description>Kraken CI Blog</description>
-        <lastBuildDate>Mon, 06 Feb 2023 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 06 Mar 2023 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Further Logging Improvements]]></title>
+            <link>https://kraken.ci/blog/further-logging-improvements</link>
+            <guid>https://kraken.ci/blog/further-logging-improvements</guid>
+            <pubDate>Mon, 06 Mar 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[The Kraken version 1.0]]></description>
+            <content:encoded><![CDATA[<p>The Kraken version <a href="https://github.com/Kraken-CI/kraken/releases/tag/v1.0" target="_blank" rel="noopener noreferrer">1.0</a>
+introduces even more improvements in logging.</p><p>The major changes are:</p><ul><li>added global and per-branch logs retention policy</li><li>added presenting logs of server-side activities related to a branch,
+a flow, a run and a job</li></ul><p>1.0 release brings several more features - check <a href="https://github.com/Kraken-CI/kraken/releases/tag/v1.0" target="_blank" rel="noopener noreferrer">the release
+notes</a>.</p><p>More details about the major features are below.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="logs-retention-policy">Logs Retention Policy<a href="#logs-retention-policy" class="hash-link" aria-label="Direct link to Logs Retention Policy" title="Direct link to Logs Retention Policy">​</a></h3><p>The logs retention policy generally indicates how long logs should be
+kept in the logs store ie. Clickhouse. It is possible to set these
+policies on two levels: 1) global and 2) branch level. The time is
+expressed in a number of months.</p><p>The picture below shows the <code>General Settings</code> tab where under the
+<code>Global Log Retention Policy</code> section, it is possible to set the number
+of months for how long all the logs (from Kraken Server and all
+Agents) will be kept in Clickhouse.</p><a href="/img/screen-logs-global-ttl.png" target="blank"><img src="/img/screen-logs-global-ttl.png" style="box-shadow:0 10px 10px 5px #777;margin-bottom:30px"></a><p>The following picture shows the <code>Retention Policy</code> tab on a branch
+management page. Here, a similar policy can be set for logs related to
+this branch, either for CI flows or for Dev flows.</p><a href="/img/screen-logs-branch-ttl.png" target="blank"><img src="/img/screen-logs-branch-ttl.png" style="box-shadow:0 10px 10px 5px #777;margin-bottom:30px"></a><h3 class="anchor anchorWithStickyNavbar_LWe7" id="server-logs-presentation">Server Logs Presentation<a href="#server-logs-presentation" class="hash-link" aria-label="Direct link to Server Logs Presentation" title="Direct link to Server Logs Presentation">​</a></h3><p>New logs panel has been introduced. It can show logs from both the
+server and agent sides. This panel can be found in several places that
+are indicated in the pictures below.</p><p>Here a branch management page is presented with the <code>Logs</code> tab where
+logs related to this branch are shown.</p><a href="/img/screen-logs-of-branch.png" target="blank"><img src="/img/screen-logs-of-branch.png" style="box-shadow:0 10px 10px 5px #777;margin-bottom:30px"></a><p>Here is the case for a flow.</p><a href="/img/screen-logs-of-flow.png" target="blank"><img src="/img/screen-logs-of-flow.png" style="box-shadow:0 10px 10px 5px #777;margin-bottom:30px"></a><p>Here is the case for a run.</p><a href="/img/screen-logs-of-run.png" target="blank"><img src="/img/screen-logs-of-run.png" style="box-shadow:0 10px 10px 5px #777;margin-bottom:30px"></a><p>And a job case.</p><a href="/img/screen-logs-of-job.png" target="blank"><img src="/img/screen-logs-of-job.png" style="box-shadow:0 10px 10px 5px #777;margin-bottom:30px"></a>]]></content:encoded>
+            <category>kraken</category>
+            <category>devops</category>
+            <category>cicd</category>
+        </item>
         <item>
             <title><![CDATA[Standing out Logs Handling]]></title>
             <link>https://kraken.ci/blog/standing-out-logs-handling</link>
