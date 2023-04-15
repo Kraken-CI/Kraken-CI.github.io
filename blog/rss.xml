@@ -4,10 +4,41 @@
         <title>Kraken CI Blog</title>
         <link>https://kraken.ci/blog</link>
         <description>Kraken CI Blog</description>
-        <lastBuildDate>Mon, 06 Mar 2023 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 15 Apr 2023 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Data and Dynamism in Schema]]></title>
+            <link>https://kraken.ci/blog/data-and-dynamism-in-schema</link>
+            <guid>https://kraken.ci/blog/data-and-dynamism-in-schema</guid>
+            <pubDate>Sat, 15 Apr 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[The Kraken version 1.1]]></description>
+            <content:encoded><![CDATA[<p>The Kraken version <a href="https://github.com/Kraken-CI/kraken/releases/tag/v1.1" target="_blank" rel="noopener noreferrer">1.1</a>
+introduces even more improvements in logging.</p><p>The major changes are:</p><ul><li>added storing user data server-side</li><li>data of internal objects and user data are now exposed in a schema code</li><li>added support for several new operating systems</li></ul><p>1.1 release brings several more features - check <a href="https://github.com/Kraken-CI/kraken/releases/tag/v1.1" target="_blank" rel="noopener noreferrer">the release
+notes</a>.</p><p>More details about the major features are below.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="user-data">User Data<a href="#user-data" class="hash-link" aria-label="Direct link to User Data" title="Direct link to User Data">​</a></h3><p>This feature enables users to store data in the workflow schema code
+on the server-side. For instance, a user can prepare data in JSON
+format in one step of the schema code. Then, in the subsequent step,
+the user can upload the data from the prepared file to the Kraken Server. The
+data can be attached to a flow, branch, or project. If it is attached
+to a flow, its scope is restricted to that particular flow, and it can
+be used in the next stage of that flow. However, it will not be
+visible in a new flow. If the data is attached to a branch or project,
+it will be shared by subsequent flows.</p><p>Details and examples are described in the
+<a href="/docs/schema#data">Data Tool section of the Workflow Schema documentation</a>.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="data-in-schema-code">Data in Schema Code<a href="#data-in-schema-code" class="hash-link" aria-label="Direct link to Data in Schema Code" title="Direct link to Data in Schema Code">​</a></h3><p>The data stored by the user, as well as the data of other internal
+objects such as jobs, runs, flows, branches, and projects, can be
+accessed in a stage schema code.</p><p>The data can be accessed via a context that is passed to the stage
+function and also through string interpolation of special variables.</p><p>All of this allows for significant dynamism in a stage schema
+code. For example, the list of jobs or step details may be based on
+the data stored by a user in previous stages.</p><p>Details are described in the <a href="/docs/schema-data">Data in Schema</a>
+chapter in the docs.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="new-oses-supported">New OSes Supported<a href="#new-oses-supported" class="hash-link" aria-label="Direct link to New OSes Supported" title="Direct link to New OSes Supported">​</a></h3><p>The new supported OSes include Rocky Linux 9, AlmaLinux and Debian
+Bookworm. The full list is availabled in
+<a href="/docs/docker-executor#tested-vanilla-images">Docker Executor</a>
+docs.</p>]]></content:encoded>
+            <category>kraken</category>
+            <category>devops</category>
+            <category>cicd</category>
+        </item>
         <item>
             <title><![CDATA[Further Logging Improvements]]></title>
             <link>https://kraken.ci/blog/further-logging-improvements</link>
