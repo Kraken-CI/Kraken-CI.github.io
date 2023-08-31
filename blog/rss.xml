@@ -4,10 +4,28 @@
         <title>Kraken CI Blog</title>
         <link>https://kraken.ci/blog</link>
         <description>Kraken CI Blog</description>
-        <lastBuildDate>Sun, 23 Jul 2023 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 31 Aug 2023 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Environment Variables]]></title>
+            <link>https://kraken.ci/blog/env-vars</link>
+            <guid>https://kraken.ci/blog/env-vars</guid>
+            <pubDate>Thu, 31 Aug 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[The Kraken]]></description>
+            <content:encoded><![CDATA[<p>The Kraken
+version <a href="https://github.com/Kraken-CI/kraken/releases/tag/v1.4" target="_blank" rel="noopener noreferrer">1.4</a>
+introduces environment variables. This feature allows for defining
+variables and their values associated with a branch. These variables
+can then be used in a workflow schema using schema context and also in
+shell commands as regular environment variables.</p><p>1.4 release brings several more features - check <a href="https://github.com/Kraken-CI/kraken/releases/tag/v1.4" target="_blank" rel="noopener noreferrer">the release
+notes</a>.</p><p>More details about environment variables can be found in the
+documentation, specifically in the <a href="/docs/env-vars">Environment Variables section</a>.</p>]]></content:encoded>
+            <category>kraken</category>
+            <category>devops</category>
+            <category>cicd</category>
+        </item>
         <item>
             <title><![CDATA[Conditional Steps]]></title>
             <link>https://kraken.ci/blog/conditional-steps</link>
