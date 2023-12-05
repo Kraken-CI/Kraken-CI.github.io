@@ -4,10 +4,38 @@
         <title>Kraken CI Blog</title>
         <link>https://kraken.ci/blog</link>
         <description>Kraken CI Blog</description>
-        <lastBuildDate>Sun, 15 Oct 2023 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 05 Dec 2023 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Windows Support in AWS]]></title>
+            <link>https://kraken.ci/blog/windows-support-in-aws</link>
+            <guid>https://kraken.ci/blog/windows-support-in-aws</guid>
+            <pubDate>Tue, 05 Dec 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Kraken version 1.6]]></description>
+            <content:encoded><![CDATA[<p>Kraken version <a href="https://github.com/Kraken-CI/kraken/releases/tag/v1.6" target="_blank" rel="noopener noreferrer">1.6</a>
+introduces support for Windows in deploying a virtual machine with the
+Kraken Agent on AWS EC2. This means that it is now possible to execute
+jobs on Windows systems in the AWS EC2 environment.</p><p>The 1.6 release brings several more changes and fixes. To see the details,
+please check the <a href="https://github.com/Kraken-CI/kraken/releases/tag/v1.6" target="_blank" rel="noopener noreferrer">the release notes</a>.
+Some of the changes included are:</p><ul><li>added link to docs page in the top bar</li><li>added checking agents group correctness provided in schema</li><li>several fixes</li></ul><p>More details about the support for Windows in AWS EC2 are provided below (<a href="/blog/windows-support-in-aws">Read More</a>).</p><p>There are a few requirements for an AWS AMI Windows image to make it
+work with Kraken CI. It should have preinstalled Python and Git. The
+generated image should also have the ability to run a <code>user data</code>
+script on the first boot. This script is used to install the Kraken
+Agent and your own init script (which can be passed via Kraken).</p><p>Here, you can find an example script for Ansible that prepares an AWS
+AMI image for Windows with all the dependencies included:
+<a href="https://github.com/Kraken-CI/kraken/tree/master/base-images/aws-ec2-win-ansible" target="_blank" rel="noopener noreferrer">https://github.com/Kraken-CI/kraken/tree/master/base-images/aws-ec2-win-ansible</a></p><p>The full guide about setting up Kraken execution agents in AWS EC2 can
+be found in <a href="/docs/autoscale-in-cloud">Autoscale in Cloud docs</a>.</p><p>That's all. To get started, simply install or upgrade to the
+<a href="https://github.com/Kraken-CI/kraken/releases/tag/v1.6" target="_blank" rel="noopener noreferrer">1.6 version</a> and
+experience all the benefits firsthand. If you have any questions or
+need assistance, submit an issue on <a href="https://github.com/Kraken-CI/kraken/issues" target="_blank" rel="noopener noreferrer">GitHub</a>
+or ask for help on <a href="https://discord.gg/bEw7Pemn" target="_blank" rel="noopener noreferrer">Discord</a>.</p>]]></content:encoded>
+            <category>kraken</category>
+            <category>devops</category>
+            <category>cicd</category>
+            <category>windows</category>
+        </item>
         <item>
             <title><![CDATA[Windows Support in Kraken Agent]]></title>
             <link>https://kraken.ci/blog/windows-support-in-agent</link>
