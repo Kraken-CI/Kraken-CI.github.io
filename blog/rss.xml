@@ -4,10 +4,36 @@
         <title>Kraken CI Blog</title>
         <link>https://kraken.ci/blog</link>
         <description>Kraken CI Blog</description>
-        <lastBuildDate>Tue, 26 Mar 2024 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 29 Mar 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Radicle and Discord support]]></title>
+            <link>https://kraken.ci/blog/radicle-and-discord</link>
+            <guid>https://kraken.ci/blog/radicle-and-discord</guid>
+            <pubDate>Fri, 29 Mar 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[The main feature introduced by Kraken version]]></description>
+            <content:encoded><![CDATA[<p>The main feature introduced by Kraken version
+<a href="https://github.com/Kraken-CI/kraken/releases/tag/v1.7" target="_blank" rel="noopener noreferrer">1.7</a> is
+integration with <a href="https://radicle.xyz" target="_blank" rel="noopener noreferrer">Radicle</a>, a peer-to-peer code
+collaboration stack. The second one is notifications to Discord channels.</p><p>To see the release details, please check the <a href="https://github.com/Kraken-CI/kraken/releases/tag/v1.7" target="_blank" rel="noopener noreferrer">the release notes</a>.</p><p>More details about Radicle integration and Discord notifications are provided below (<a href="/blog/radicle-and-discord">Read More</a>).</p><p>There are a few requirements for an AWS AMI Windows image to make it
+work with Kraken CI. It should have preinstalled Python and Git. The
+generated image should also have the ability to run a <code>user data</code>
+script on the first boot. This script is used to install the Kraken
+Agent and your own init script (which can be passed via Kraken).</p><p>Here, you can find an example script for Ansible that prepares an AWS
+AMI image for Windows with all the dependencies included:
+<a href="https://github.com/Kraken-CI/kraken/tree/master/base-images/aws-ec2-win-ansible" target="_blank" rel="noopener noreferrer">https://github.com/Kraken-CI/kraken/tree/master/base-images/aws-ec2-win-ansible</a></p><p>The full guide about setting up Kraken execution agents in AWS EC2 can
+be found in <a href="/docs/autoscale-in-cloud">Autoscale in Cloud docs</a>.</p><p>That's all. To get started, simply install or upgrade to the
+<a href="https://github.com/Kraken-CI/kraken/releases/tag/v1.6" target="_blank" rel="noopener noreferrer">1.6 version</a> and
+experience all the benefits firsthand. If you have any questions or
+need assistance, submit an issue on <a href="https://github.com/Kraken-CI/kraken/issues" target="_blank" rel="noopener noreferrer">GitHub</a>
+or ask for help on <a href="https://discord.gg/bEw7Pemn" target="_blank" rel="noopener noreferrer">Discord</a>.</p>]]></content:encoded>
+            <category>kraken</category>
+            <category>devops</category>
+            <category>cicd</category>
+            <category>radicle</category>
+        </item>
         <item>
             <title><![CDATA[Integration with Radicle]]></title>
             <link>https://kraken.ci/blog/integration-with-radicle</link>
