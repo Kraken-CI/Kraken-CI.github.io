@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkkraken_ci_website=self.webpackChunkkraken_ci_website||[]).push([[7949],{8797:e=>{e.exports=JSON.parse('{"label":"git","permalink":"/blog/tags/git","allTagsPath":"/blog/tags","count":4,"unlisted":false}')}}]);

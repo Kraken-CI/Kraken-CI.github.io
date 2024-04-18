@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkkraken_ci_website=self.webpackChunkkraken_ci_website||[]).push([[6396],{8588:e=>{e.exports=JSON.parse('{"label":"theme","permalink":"/blog/tags/theme","allTagsPath":"/blog/tags","count":2,"unlisted":false}')}}]);

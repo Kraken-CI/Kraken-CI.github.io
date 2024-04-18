@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkkraken_ci_website=self.webpackChunkkraken_ci_website||[]).push([[3441],{4355:e=>{e.exports=JSON.parse('{"permalink":"/blog/tags/cicd/page/2","page":2,"postsPerPage":10,"totalPages":2,"totalCount":16,"previousPage":"/blog/tags/cicd","blogDescription":"Blog","blogTitle":"Blog"}')}}]);
