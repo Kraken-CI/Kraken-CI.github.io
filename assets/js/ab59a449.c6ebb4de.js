@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkkraken_ci_website=self.webpackChunkkraken_ci_website||[]).push([[2734],{9790:e=>{e.exports=JSON.parse('{"label":"radicle","permalink":"/blog/tags/radicle","allTagsPath":"/blog/tags","count":2,"unlisted":false}')}}]);

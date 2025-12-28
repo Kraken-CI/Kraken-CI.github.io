@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkkraken_ci_website=self.webpackChunkkraken_ci_website||[]).push([[1995],{1201:e=>{e.exports=JSON.parse('{"label":"quality","permalink":"/blog/tags/quality","allTagsPath":"/blog/tags","count":1,"unlisted":false}')}}]);
